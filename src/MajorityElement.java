@@ -17,5 +17,8 @@ public class MajorityElement {
         int[] nums1 = {3,2,3};
         int result1 = majorityElement(nums1);
         System.out.println("Majority Element : "+ result1);
+        System.out.println("Time Complexity: O(n) because we iterate over the array once.");
+        System.out.println("Space Complexity: O(n) because we might store all elements in the map in the worst case.");
+
     }
 }
