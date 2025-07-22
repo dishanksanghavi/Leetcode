@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,7 @@ public class MajorityElement {
 
     public static void main(String[] args) {
         int[] nums1 = {3,2,3};
+        System.out.println("Original array: " + Arrays.toString(nums1));
         int result1 = majorityElement(nums1);
         System.out.println("Majority Element : "+ result1);
         System.out.println("Time Complexity: O(n) because we iterate over the array once.");

@@ -14,6 +14,7 @@ public class RemoveDuplicatesFromSortedArray {
     }
     public static void main(String[] args) {
         int[] nums1 = {0,0,1,1,1,2,2,3,3,4};
+        System.out.println("Original array: " + Arrays.toString(nums1));
         int result1 = removeDuplicates(nums1);
         System.out.println("List length after removing duplicates : "+ result1);
         System.out.println("Time Complexity: O(n), where n is the number of elements in the array. We traverse the array with a single pass using the two pointers.");
