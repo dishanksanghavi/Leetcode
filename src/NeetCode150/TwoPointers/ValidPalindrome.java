@@ -1,4 +1,4 @@
-package NeetCode150;
+package NeetCode150.TwoPointers;
 
 public class ValidPalindrome {
     public static boolean isPalindrome(String s) {

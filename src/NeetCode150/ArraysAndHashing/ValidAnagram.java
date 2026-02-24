@@ -1,4 +1,4 @@
-package NeetCode150;
+package NeetCode150.ArraysAndHashing;
 
 public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
