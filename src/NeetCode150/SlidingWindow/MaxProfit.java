@@ -1,3 +1,5 @@
+package NeetCode150.SlidingWindow;
+
 import java.util.Arrays;
 
 public class MaxProfit {
